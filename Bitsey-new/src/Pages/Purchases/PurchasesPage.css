@@ -1,0 +1,45 @@
+
+.Text {
+    font-size: xx-large;
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    font-size: xx-large;
+    font-weight: 500;
+}
+
+.purchase-layout {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    gap: 10px;
+    margin: 10px;
+
+}
+
+.traking-container{
+    border: solid;
+    width: auto;
+    height: auto;
+}
+
+.track-package-button{
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px 0px 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: black;
+    border: none;
+    cursor: pointer;   
+
+}
+@media (max-width: 750px) {
+    .Text {
+        margin-top: 160px;
+    }
+    .purchase-layout{
+        grid-template-columns: 100%;
+    }
+}

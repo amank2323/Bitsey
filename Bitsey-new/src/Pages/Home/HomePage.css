@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(255, 253, 239);
+}
+.Homepage .hero-container .heading{
+    margin-top: 100px;
+    text-decoration: none;
+    border: solid;
+    display: block;
+    width: 50%;
+    height: 50%;
+    font-size: 50px;
+}
+.hero-images{
+    border: solid;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+.hero-images img{
+    object-fit: cover;
+    border-radius: 20px;
+    flex: 1;
+    height: 270px;
+    width: 20%;
+}

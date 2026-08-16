@@ -1,0 +1,159 @@
+
+import { Header } from "../../Components/Header"
+import './PurchasesPage.css'
+import { NavLink } from "react-router"
+//import image from '../../../public/homePageImg/discoveryImg-2.webp'
+
+export function PurchasesPage() {
+    return (
+        <>
+            <title>Your Purchases</title>
+            <Header />
+            <div className="Text">Your Purchases</div>
+            <div className="purchase-layout">
+                <div className="product-container">
+                    <div className="product-rating-section">
+                        <div className="seller-section">
+                            <img src="" />
+                            <span>Seller Name</span>
+                            <div className="rating-section">
+                                <img />
+                                <span>4.8</span>
+                                <span>(No.)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="offer-section">
+                        <input type="checkbox" />
+                        <span>Apply <span>10% off</span> to this product</span>
+                    </div>
+                    <div className="product-details-section">
+                        <div className="product-img-section">
+                            <img />
+                        </div>
+                        <div className="product-details-section2">
+                            <div className="product-title">
+                                <span>Handmade Japanese Ceramic Tea cup | Wabi-Sabi Kintsugi Style Pottery Bowl with R...</span>
+                                <p>Sale for a limited time</p>
+                            </div>
+                            <div className="product-operations-buttons">
+                                <select>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                    <option>6</option>
+                                    <option>7</option>
+                                    <option>8</option>
+                                    <option>9</option>
+                                    <option>10</option>
+                                </select>
+                                <button className="Save-for-later-button">
+                                    <span>Save for later</span>
+                                </button>
+                                <button className="Remove-button">
+                                    Remove
+                                </button>
+                            </div>
+                        </div>
+                        <div className="product-price-section">
+                            <div style={{ backgroundColor: "#00ff80", padding: "2px 5px 2px", display: "inline", borderRadius: "20px", fontSize: "13px" }}>20% off</div>
+                            <div style={{ fontSize: "30px", color: "#137b13ff", marginLeft: "30px" }}>$299</div>
+                            <div style={{ fontSize: "15px", marginRight: "10px", color: "grey", marginTop: "-3px" }}><del>$399</del></div>
+                        </div>
+                    </div>
+                    <div className="delivery-details">
+                        <div className="delivery-dates">
+                            <span style={{ fontWeight: "bold" }}>Delivery:</span> <span style={{ color: "green" }}> FREE </span>(<span>Get it by 16 Dec-08 Jan</span>)
+                        </div>
+                        <div>
+                            <NavLink style={{ textDecoration: "none", color: "black", fontWeight: "bold" }}>
+                                Checkout for this page only -
+                            </NavLink>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="traking-container">
+                    <NavLink to='/Tracking'>
+                        <button className="track-package-button">
+                            Track Package
+                        </button>
+                    </NavLink>
+                </div>
+
+                <div className="product-container">
+                    <div className="product-rating-section">
+                        <div className="seller-section">
+                            <img src="" />
+                            <span>Seller Name</span>
+                            <div className="rating-section">
+                                <img />
+                                <span>4.8</span>
+                                <span>(No.)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="offer-section">
+                        <input type="checkbox" />
+                        <span>Apply <span>10% off</span> to this product</span>
+                    </div>
+                    <div className="product-details-section">
+                        <div className="product-img-section">
+                            <img />
+                        </div>
+                        <div className="product-details-section2">
+                            <div className="product-title">
+                                <span>Handmade Japanese Ceramic Tea cup | Wabi-Sabi Kintsugi Style Pottery Bowl with R...</span>
+                                <p>Sale for a limited time</p>
+                            </div>
+                            <div className="product-operations-buttons">
+                                <select>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                    <option>6</option>
+                                    <option>7</option>
+                                    <option>8</option>
+                                    <option>9</option>
+                                    <option>10</option>
+                                </select>
+                                <button className="Save-for-later-button">
+                                    <span>Save for later</span>
+                                </button>
+                                <button className="Remove-button">
+                                    Remove
+                                </button>
+                            </div>
+                        </div>
+                        <div className="product-price-section">
+                            <div style={{ backgroundColor: "#00ff80", padding: "2px 5px 2px", display: "inline", borderRadius: "20px", fontSize: "13px" }}>20% off</div>
+                            <div style={{ fontSize: "30px", color: "#137b13ff", marginLeft: "30px" }}>$299</div>
+                            <div style={{ fontSize: "15px", marginRight: "10px", color: "grey", marginTop: "-3px" }}><del>$399</del></div>
+                        </div>
+                    </div>
+                    <div className="delivery-details">
+                        <div className="delivery-dates">
+                            <span style={{ fontWeight: "bold" }}>Delivery:</span> <span style={{ color: "green" }}> FREE </span>(<span>Get it by 16 Dec-08 Jan</span>)
+                        </div>
+                        <div>
+                            <NavLink style={{ textDecoration: "none", color: "black", fontWeight: "bold" }}>
+                                Checkout for this page only -
+                            </NavLink>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="traking-container">
+
+                </div>
+
+
+
+            </div>
+        </>
+    )
+}
